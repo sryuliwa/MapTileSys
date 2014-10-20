@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>$(OSG_ROOT);$(OSG_ROOT)include;$(OSG_3RDPARTY_DIRS)GDAL-1.9.0\include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ReferencePath>$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LibraryPath>$(OSG_ROOT)lib;$(OSG_3RDPARTY_DIRS)GDAL-1.9.0\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>osg.lib;osgEarth.lib;osgEarthFeatures.lib;osgEarthSymbology.lib;osgEarthUtil.lib;gdal_i.lib;osgGA.lib;osgDB.lib;osgViewer.lib;OpenThreads.lib;osgAnimation.lib;osgFX.lib;osgManipulator.lib;osgParticle.lib;osgPresentation.lib;osgShadow.lib;osgSim.lib;osgTerrain.lib;osgText.lib;osgUtil.lib;osgVolume.lib;osgWidget.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
