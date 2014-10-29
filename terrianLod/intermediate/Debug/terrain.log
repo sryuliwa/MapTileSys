@@ -1,0 +1,40 @@
+﻿Build started 2014/10/28 15:04:02.
+     1>Project "E:\MyProjects\OSGRelated\TerrianLod\terrain.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(356,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /FR"E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\\" /Gd /TP /analyze- /errorReport:prompt BMPLoader.cpp Camera.cpp Lod.cpp main.cpp SkyBox.cpp stdafx.cpp Terrain.cpp Vector3.cpp
+         Vector3.cpp
+         Terrain.cpp
+     1>e:\myprojects\osgrelated\terrianlod\terrain.cpp(59): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         stdafx.cpp
+         SkyBox.cpp
+     1>e:\myprojects\osgrelated\terrianlod\skybox.cpp(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\myprojects\osgrelated\terrianlod\skybox.cpp(30): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         main.cpp
+         Lod.cpp
+         Camera.cpp
+         BMPLoader.cpp
+     1>e:\myprojects\osgrelated\terrianlod\bmploader.cpp(28): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\terrain.exe" /INCREMENTAL /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\MyProjects\OSGRelated\TerrianLod\Debug\terrain.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MyProjects\OSGRelated\TerrianLod\Debug\terrain.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\BMPLoader.obj
+         .\Debug\Camera.obj
+         .\Debug\Lod.obj
+         .\Debug\main.obj
+         .\Debug\SkyBox.obj
+         .\Debug\stdafx.obj
+         .\Debug\Terrain.obj
+         .\Debug\Vector3.obj
+         terrain.vcxproj -> E:\MyProjects\OSGRelated\TerrianLod\Debug\terrain.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug\terrain.bsc" E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\BMPLoader.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\Camera.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\Lod.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\main.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\SkyBox.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\stdafx.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\Terrain.sbr E:\MyProjects\OSGRelated\TerrianLod\\intermediate\Debug\Vector3.sbr
+     1>Done Building Project "E:\MyProjects\OSGRelated\TerrianLod\terrain.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.48
